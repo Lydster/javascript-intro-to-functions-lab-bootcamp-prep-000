@@ -29,3 +29,6 @@ function sayHiToGrandma(string) {
   return "test failed";
 }
   
+sayHiToGrandma('HELLO!')
+sayHiToGrandma('hello!')
+sayHiToGrandma("I love you, Grandma.")
