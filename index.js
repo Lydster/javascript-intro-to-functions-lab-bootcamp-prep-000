@@ -19,17 +19,16 @@ var uppercase = 'HELLO!'
 var love = "I love you, Grandma."
 
 function sayHiToGrandma(string) {
-  var lowercase = 'hello!'
   if (lowercase.toLowerCase() === lowercase)
   return "I can't hear you!"; 
   else if (uppercase.toUpperCase() === uppercase)
-  return "YES INDEED!";
+  return "YES INDEED!"
   else
   return "I love you, too."
 }
  
-
-/*function sayHiToGrandma(string) {
+/*
+function sayHiToGrandma(string) {
   var uppercase = 'HELLO!'
   if (uppercase.toUpperCase() === uppercase)
   return "YES INDEED!";
@@ -41,6 +40,6 @@ function sayHiToGrandma(string) {
   if (love === "I love you, Grandma.")
   return "I love you, too."
 }
-
 */
+
 
