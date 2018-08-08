@@ -21,25 +21,19 @@ var love = "I love you, Grandma."
 function sayHiToGrandma(string) {
   if (lowercase.toLowerCase() === lowercase)
   return "I can't hear you!"; 
-  else if (uppercase.toUpperCase() === uppercase)
-  return "YES INDEED!"
-  else
-  return "I love you, too."
 }
  
-/*
+
 function sayHiToGrandma(string) {
-  var uppercase = 'HELLO!'
   if (uppercase.toUpperCase() === uppercase)
-  return "YES INDEED!";
+  return "I can't hear you!";
 }
 
 
 function sayHiToGrandma(string) {
-  var love = "I love you, Grandma."
   if (love === "I love you, Grandma.")
-  return "I love you, too."
+  return "I can't hear you!"
 }
-*/
+
 
 
